@@ -1,0 +1,98 @@
+.search-wrapper {
+    background: #2378cd;
+    color: white;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+  
+  .search-container .search form {
+    padding: 12px 0 70px;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-wrap: wrap;
+  }
+  
+  .search-container .search form,
+  .search-container .search form div {
+    display: flex;
+  }
+  
+  .search-container .search form div {
+    flex-direction: column;
+    justify-content: flex-end;
+    position: relative;
+  }
+  
+  .search-container .search form .field:disabled {
+    background: #f9fafb;
+    opacity: 0.1;
+  }
+  
+  .search-container .search form .icon {
+    position: absolute;
+    top: 31px;
+    left: 10px;
+    width: 16px;
+    height: 17px;
+  }
+  
+  .search-container .search form .icon-take-off {
+    width: 37px;
+    height: 37px;
+    top: 21px;
+    left: 5px;
+  }
+  
+  .search-container .search form label,
+  .search-container .search form .field,
+  #search {
+    font-size: 14px;
+  }
+  
+  .search-container .search form .field {
+    border: none;
+    padding: 10px 40px 10px 50px;
+    border-radius: 6px;
+  }
+  
+  .search-container .search form select {
+    min-height: 42px;
+  }
+  
+  #airports {
+    position: absolute;
+    top: 63px;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    overflow: auto;
+  }
+  
+  #airports option {
+    padding: 0.75rem;
+  }
+  
+  #airports option:not(:last-child) {
+    border-bottom: 1px solid #98a2b3;
+  }
+  
+  .search-container .search form button {
+    margin: 0.375rem;
+    padding: 0.625rem 1rem;
+  }
+  
+  .search-container a.button {
+    margin: 0.375rem;
+    padding: 0.625rem 1rem;
+  }
+  
+  .search-container .search form button {
+    border: none;
+    margin: 0;
+  }
+  
+  .search-container .search form #filters {
+    display: none;
+  }
